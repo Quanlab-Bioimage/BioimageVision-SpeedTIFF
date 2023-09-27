@@ -1,6 +1,14 @@
 # BioimageVision-SpeedTIF
 
 ```
+Python==3.8
+```
+
+```
+cd SpeedTifIOWhl
+pip install SpeedTifIO-1.0-py3-none-any.whl
+```
+```
 import os
 from SpeedTifIO import SpeedReadTifClass
 

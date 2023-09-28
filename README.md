@@ -31,4 +31,4 @@ if __name__ == '__main__':
         print(name, img.shape, img.max(), img.min())
 ```
 ## 视频
-[快速读图视频](https://github.com/QuantingweiImage/BioimageVision-SpeedTIF/blob/main/images/%E5%BF%AB%E9%80%9F%E8%AF%BB%E5%9B%BE%E8%A7%86%E9%A2%91.mp4)
+[快速读图视频](https://github.com/QuantingweiImage/BioimageVision-SpeedTIFIO/assets/41601635/c5f85bf8-ab4e-4c8c-a2a1-713db3d16004)

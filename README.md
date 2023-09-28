@@ -4,7 +4,8 @@
 * 16Bit + Lzw/未压缩数据
 * 其他的数据类型暂未测试  
 
-
+## 测试数据
+[网址](https://zhuanlan.zhihu.com/p/151291463)
 ## 环境
 ```
 Python==3.8

@@ -1,4 +1,4 @@
-# BioimageVision-SpeedTIFIO
+# BioimageVision-SpeedTIFF
 ### Fast reading of TIF images in batches, currently supported:
 * 8 + LZW/uncompressed data
 * 16Bit + Lzw/Uncompressed Data
@@ -10,7 +10,7 @@ https://zenodo.org/record/8385040
 ```
 Python==3.8
 ```
-## Construct
+## Install
 ```
 cd SpeedTifIOWhl
 pip install SpeedTifIO-1.0-py3-none-any.whl
@@ -31,4 +31,4 @@ if __name__ == '__main__':
         print(name, img.shape, img.max(), img.min())
 ```
 ## Video
-[快速读图视频](https://github.com/QuantingweiImage/BioimageVision-SpeedTIFIO/assets/41601635/c5f85bf8-ab4e-4c8c-a2a1-713db3d16004)
+(https://github.com/QuantingweiImage/BioimageVision-SpeedTIFIO/assets/41601635/c5f85bf8-ab4e-4c8c-a2a1-713db3d16004)

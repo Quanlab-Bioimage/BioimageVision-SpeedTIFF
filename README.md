@@ -34,5 +34,5 @@ if __name__ == '__main__':
         print(name, img.shape, img.max(), img.min())
 ```
 **数据图**
-
+![image](https://github.com/QuantingweiImage/BioimageVision-SpeedTIF/blob/main/images/%E8%AF%BB%E5%86%99%E5%AF%B9%E6%AF%94.png)
 **视频**

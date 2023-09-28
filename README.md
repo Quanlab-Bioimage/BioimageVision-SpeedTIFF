@@ -1,21 +1,21 @@
 # BioimageVision-SpeedTIFIO
-### 批量快速读取Tif图像，当前支持:
-* 8 + Lzw/未压缩数据
-* 16Bit + Lzw/未压缩数据
-* 其他的数据类型暂未测试  
+### Fast reading of TIF images in batches, currently supported:
+* 8 + LZW/uncompressed data
+* 16Bit + Lzw/Uncompressed Data
+* Other data types have not yet been tested   
 
-## 测试数据
+## Test data
 https://zenodo.org/record/8385040
-## 环境
+## Environment
 ```
 Python==3.8
 ```
-## 构建
+## Construct
 ```
 cd SpeedTifIOWhl
 pip install SpeedTifIO-1.0-py3-none-any.whl
 ```
-## 例子
+## Example
 ```
 import os
 from SpeedTifIO import SpeedReadTifClass
@@ -30,5 +30,5 @@ if __name__ == '__main__':
         img = obj.GetImg()
         print(name, img.shape, img.max(), img.min())
 ```
-## 视频
+## Video
 [快速读图视频](https://github.com/QuantingweiImage/BioimageVision-SpeedTIFIO/assets/41601635/c5f85bf8-ab4e-4c8c-a2a1-713db3d16004)

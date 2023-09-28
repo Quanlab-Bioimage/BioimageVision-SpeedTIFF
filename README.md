@@ -1,5 +1,5 @@
-# BioimageVision-SpeedTIF
-###批量快速读取Tif图像，当前支持:
+# BioimageVision-SpeedTIFIO
+### 批量快速读取Tif图像，当前支持:
 * 8 + Lzw/未压缩数据
 * 16Bit + Lzw/未压缩数据
 * 其他的数据类型暂未测试  

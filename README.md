@@ -30,7 +30,5 @@ if __name__ == '__main__':
         img = obj.GetImg()
         print(name, img.shape, img.max(), img.min())
 ```
-## 数据图
-![image](https://github.com/QuantingweiImage/BioimageVision-SpeedTIF/blob/main/images/%E8%AF%BB%E5%86%99%E5%AF%B9%E6%AF%94.png)
 ## 视频
 [快速读图视频](https://github.com/QuantingweiImage/BioimageVision-SpeedTIF/blob/main/images/%E5%BF%AB%E9%80%9F%E8%AF%BB%E5%9B%BE%E8%A7%86%E9%A2%91.mp4)

@@ -24,7 +24,7 @@ Python==3.8
 cd SpeedTifIOWhl
 pip install SpeedTifIO-1.0-py3-none-any.whl
 ```
-## Example1 Read
+## Example1-Read
 ```
 import os
 from SpeedTifIO import SpeedReadTifClass
@@ -39,7 +39,7 @@ if __name__ == '__main__':
         img = obj.GetImg()
         print(name, img.shape, img.max(), img.min())
 ```
-## Example2 Write
+## Example2-Write
 ```
 import os, time
 from os.path import join
@@ -68,7 +68,7 @@ if __name__ == '__main__':
     print('TotalTime: ', time.time() - s1)
     writeObj.Close()
 ```
-## Video1 Read
+## Video1-Read
 [The video for fast reading images](https://github.com/QuantingweiImage/BioimageVision-SpeedTIFIO/assets/41601635/c5f85bf8-ab4e-4c8c-a2a1-713db3d16004)
-## Video2 Write
-[The video for fast reading images](https://github.com/Quanlab-Bioimage/BioimageVision-SpeedTIFF/assets/41601635/7590be69-e7b2-44af-b70a-ff87efb602e2)
+## Video2-Write
+[The video for fast Writeing images](https://github.com/Quanlab-Bioimage/BioimageVision-SpeedTIFF/assets/41601635/7590be69-e7b2-44af-b70a-ff87efb602e2)

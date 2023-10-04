@@ -24,7 +24,7 @@ Python==3.8
 cd SpeedTifIOWhl
 pip install SpeedTifIO-1.0-py3-none-any.whl
 ```
-## Example1 Read
+## Example Read
 ```
 import os
 from SpeedTifIO import SpeedReadTifClass
@@ -39,7 +39,7 @@ if __name__ == '__main__':
         img = obj.GetImg()
         print(name, img.shape, img.max(), img.min())
 ```
-## Example2 Write
+## Example Write
 ### The data in the Quick Write example is randomly generated, and the generation speed is slow, please wait
 ```
 import os, time

@@ -12,7 +12,10 @@
 * 16Bit + 2D
 * 16Bit + 3D
 * Other data types have not yet been tested
+
   
+## Technique Help
+quxuzhong@hust.edu.cn
 ## Test data
 https://zenodo.org/record/8385040
 ## Environment

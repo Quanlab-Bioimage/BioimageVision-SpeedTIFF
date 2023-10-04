@@ -18,6 +18,10 @@
 quxuzhong@hust.edu.cn
 ## Test data
 https://zenodo.org/record/8385040
+
+## Note
+**When writing pictures in batches, ensure that disk C has a large space. You are advised to write more than twice the size of each batch of pictures**
+ 
 ## Environment
 ```
 Python==3.8

@@ -1,4 +1,15 @@
 # BioimageVision-SpeedTIFF
+## 硬件要求
+* 该库对于最低性能，仅需大约16GM的RAW计算机，为了获得最佳性能，推荐如下规格的计算机：
+* RAW：64+GB
+* CPU：8+核心，3.80GHz/核心
+
+## 环境要求：
+* windows操作系统
+* python==3.8
+* When writing pictures in batches, ensure that disk C has a large space. You are advised to write more than twice the size of each batch of pictures
+  
+## 适用范围
 ### Fast reading of TIF images in batches, currently supported:
 * 8Bit + 2D
 * 8Bit + 3D
@@ -19,19 +30,13 @@ quxuzhong@hust.edu.cn
 ## Test data
 https://zenodo.org/record/8385040
 
-## Note
-**When writing pictures in batches, ensure that disk C has a large space. You are advised to write more than twice the size of each batch of pictures**
- 
-## Environment
-```
-Python==3.8
-```
 ## Install
 ```
 cd SpeedTifIOWhl
 pip install SpeedTifIO-1.0-py3-none-any.whl
 ```
-## Example Read
+## Demo
+### Example Read
 ```
 import os
 from SpeedTifIO import SpeedReadTifClass
@@ -46,8 +51,8 @@ if __name__ == '__main__':
         img = obj.GetImg()
         print(name, img.shape, img.max(), img.min())
 ```
-## Example Write
-### The data in the Quick Write example is randomly generated, and the generation speed is slow, please wait
+### Example Write
+**快速写图例子中数据为随机生成，生成速度较慢，请等待，当打印"StartWrite"时，表示生成数据结束，快速写图开始**
 ```
 import os, time
 from os.path import join
@@ -77,6 +82,9 @@ if __name__ == '__main__':
     print('TotalTime: ', time.time() - s1)
     writeObj.Close()
 ```
+## 结果
+此读写方法可以最大效率的利用磁盘和CPU，实现高效快速读写Tif图像。
+
 ## Video Read
 [The video for fast reading images](https://github.com/QuantingweiImage/BioimageVision-SpeedTIFIO/assets/41601635/c5f85bf8-ab4e-4c8c-a2a1-713db3d16004)
 ## Video Write

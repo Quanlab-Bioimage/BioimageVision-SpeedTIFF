@@ -2,10 +2,10 @@
 ## Hardware Requirements
 **The library requires only about 16GB of RAW computer for minimum performance, and the following specifications are recommended for best performance**
 * RAM: 128+ GB
-* CPU: 16+ cores, over 3.50GHz/core
+* CPU: 8+ cores, over 3.50GHz/core
 
 ## Environmental requirements
-* windows operating system
+* Operating system: windows
 * python==3.8
 * When writing pictures in batches, ensure that disk C has a large space. You are advised to write more than twice the size of each batch of pictures
   
@@ -25,8 +25,7 @@
 * Other data types have not yet been tested
 
   
-## Technique Help
-quxuzhong@hust.edu.cn
+
 ## Test data
 https://zenodo.org/record/8385040
 
@@ -89,3 +88,5 @@ This read and write method can maximize the efficiency of disk and CPU, and achi
 [The video for fast reading images](https://github.com/QuantingweiImage/BioimageVision-SpeedTIFIO/assets/41601635/c5f85bf8-ab4e-4c8c-a2a1-713db3d16004)
 ## Video Write
 [The video for fast Writing images](https://github.com/Quanlab-Bioimage/BioimageVision-SpeedTIFF/assets/41601635/34a59c19-3ddc-47e2-bc6a-25acfa97d2c3)
+## Technique Help
+quxuzhong@hust.edu.cn

@@ -37,7 +37,7 @@ if __name__ == '__main__':
     elif type == 3:  ### read time for Libtiff
         i_start = 0
         i_end = 153
-        start = s1.time()
+        s1 = time.time()
         for i in range(i_start, i_end):
             tif = TIFF.open(os.path.join(path, str(i) + '.tif'), mode='r')
             images = [image for image in tif.iter_images()]

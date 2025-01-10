@@ -42,12 +42,12 @@ pip install DecTIFFIO-0.1.0-py3-none-any.whl
 ### Example Read
 ```
 import os
-from SpeedTifIO import SpeedReadTifClass
+from DecTIFFIO import DecReadTifClass
 
 if __name__ == '__main__':    
-    path = r'H:\TDIA1302b002_DataSet11'
+    path = r'./'
     ls = os.listdir(path)
-    obj = SpeedReadTifClass()
+    obj = DecReadTifClass()
     for name in ls:
         obj.AddPath(os.path.join(path, name))
     for name in ls:
@@ -59,7 +59,7 @@ if __name__ == '__main__':
 ```
 import os, time
 from os.path import join
-from SpeedTifIO.SpeedWriteTif import SpeedWriteClass
+from DecTIFFIO.DecWriteTif import DecWriteClass
 import numpy as np
 
 if __name__ == '__main__':
@@ -74,7 +74,7 @@ if __name__ == '__main__':
         imgLs.append(np.random.randint(255, size=(32000, 40000), dtype=np.uint8))
     '''Start Speed Write'''
     print('StartWrite')
-    writeObj = SpeedWriteClass()
+    writeObj = DecWriteClass()
     s1 = time.time()
     for ii in range(imgNumber):
         writeObj.AddPath(join(savePath, str(ii).zfill(5) + '.tif'), imgLs[ii])
@@ -84,6 +84,25 @@ if __name__ == '__main__':
         print(name, 'Finish!')
     print('TotalTime: ', time.time() - s1)
     writeObj.Close()
+```
+### Example Load of Bio-VS format
+```
+from DecTIFFIO import BVReader
+import time
+
+if __name__ == '__main__':
+    bv_cfg = r'E:\ZHM_BV\config.cfg'
+    readObj = BVReader()
+    minx = 0
+    maxx = 500
+    miny = 0
+    maxy = 500
+    minz = 0
+    maxz = 500
+    level = 0
+    readObj.addROIWork(bv_cfg, level, minx, maxx, miny, maxy, minz, maxz)
+    img = readObj.getROIResult()
+    del img
 ```
 ## Result
 This read and write method can maximize the efficiency of disk and CPU, and achieve efficient and fast reading and writing Tif images.

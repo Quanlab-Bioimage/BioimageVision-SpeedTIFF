@@ -47,7 +47,7 @@ if lib is None:
                       'is installed and its location is listed in '
                       'PATH|LD_LIBRARY_PATH|..')
 
-libtiff = ctypes.cdll.LoadLibrary(r'D:\CL_TEST_READ\C++Project\test_exe\libtiff.dll')
+libtiff = ctypes.cdll.LoadLibrary(r'E:\reading\BV_project\BUILD\package\dist\Decoupled-Tiff\demo_script\libtiff.dll')
 
 libtiff.TIFFGetVersion.restype = ctypes.c_char_p
 libtiff.TIFFGetVersion.argtypes = []

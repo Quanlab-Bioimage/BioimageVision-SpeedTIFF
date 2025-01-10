@@ -1,4 +1,4 @@
-# BioimageVision-SpeedTIFF
+# Decoupled-Tiff
 ## Hardware Requirements
 **The library requires only about 16GB of RAW computer for minimum performance, and the following specifications are recommended for best performance**
 * RAM: 128+ GB
@@ -19,20 +19,24 @@
 
 ### Fast writing of TIF images in batches, currently supported:
 * 8Bit + 2D
+
 * 8Bit + 3D
+
 * 16Bit + 2D
+
 * 16Bit + 3D
+
 * Other data types have not yet been tested
 
-  
+### Fast loading of Bio-VS format  
 
 ## Test data
 https://zenodo.org/record/8385040
 
 ## Install
 ```
-cd SpeedTifIOWhl
-pip install SpeedTifIO-1.0-py3-none-any.whl
+cd DecTIFFIOWhl
+pip install DecTIFFIO-0.1.0-py3-none-any.whl
 ```
 ## Demo
 ### Example Read

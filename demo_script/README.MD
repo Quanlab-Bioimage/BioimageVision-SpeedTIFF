@@ -1,4 +1,4 @@
-# Demo script for comparison of Dec-Tiff, Cpp-Tiff, Tifffile, Libtif
+# Demo script for comparison of Dec-Tiff, Cpp-Tiff, Tifffile, Libtiff
 
 ## Prerequisites for the demo
 
@@ -20,3 +20,4 @@ Test data save : compare_save.py
 
 ## Notes
 
+Because Libtiff has a compatibility issue with the existing numpy version, it is necessary to run "Update.exe" to solve the compatibility issue. Or if you don't want to run the demo with libtiff, you can just comment the related codes in "compare_load.py" and "compare_save.py".

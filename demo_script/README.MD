@@ -12,7 +12,7 @@ To achieve optimal performance, it is recommended to clear disk fragments before
 
 ## Demo run
 
-Set type to change the test tools. To avoid the impact of CPU cache, run RAMMap64.exe, click Empty->Empty Standby List after each test.
+Set type to change the test tools. To avoid the impact of CPU cache, run RAMMap64.exe, click Empty->Empty Standby List before each test.
 
 Test data load : compare_load.py
 
